@@ -1,0 +1,7 @@
+ultralytics>=8.0.0
+opencv-python>=4.8.0
+pyserial>=3.5
+numpy>=1.24.0
+scikit-learn>=1.3.0
+paho-mqtt>=1.6.1      # only needed if CLOUD_BACKEND = "mqtt"
+requests>=2.31.0      # only needed if CLOUD_BACKEND = "firebase"
